@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color:rgb(4, 235, 158);
+
+
+}
+
+
+.petcat-img {
+    position: absolute;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    z-index: 5;
+   margin-top: 200px;
+    margin-left: 1015px;
+}
+
+.petdog-img {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    z-index: 1;
+    margin-left: 730px;
+    margin-top: 85px;
+
+       
+  
+}
+
+
+.molduraa 
+img {
+    position: absolute;
+    width: 900px;
+    opacity: 0.4;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+header {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 410px;
+    cursor: pointer;
+
+}
+
+.hea {
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    background-color: rgb(10, 255, 235);
+    border-radius: 50px;
+    color: rgb(0, 15, 36);
+    padding: 5px;
+    z-index: 10;
+}
+
+section {
+    box-sizing: border-box;
+    width: 500px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 200px;
+    display: block;
+
+}
+
+main {
+    position: absolute;
+    z-index: 4;
+    margin-top: 200px;
+}
+
+.header-img {
+    position:absolute;
+   margin-left: 350px;
+   margin-top: 35px;
+}
+
+.hea:hover {
+    color: aqua;
+    background-color:rgb(0, 15, 36);
+}
+
+.Molder-pat {
+    position: absolute;
+    width: 400px;
+    opacity: 0.2;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(41, 68, 143);
+    border: 10px;
+    border-color: black;
+    margin-left: 90px;
+
+}
+
+span {
+    color: blue;
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+main {
+    margin-left: 10px;
+}
+
+h2 {
+    color :rgb(0, 42, 48);
+    border: 10px;
+    border-color: black;
+    margin-left: 90px;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(7, 148, 101);
+}
+button:active {
+    background-color: blueviolet;
+
+}
+
+.dog {
+    width: 200px;
+    margin-top: 470px;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+
+.tudo2 {
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.dog:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+}
+
+.tudo2 {
+    color: blue;
+}
+
+label {
+    margin-left: 90px;
+    margin-top: 20px;
+}
